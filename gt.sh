@@ -39,7 +39,6 @@ case $1 in
 					*)
 						echo get repo user
 						URL=https://api.github.com/users/${USERNAME}/repos
-						https://api.github.com/users/SamirMimoun/repos
 					;;
 				esac 
 			;;
