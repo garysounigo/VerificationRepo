@@ -155,14 +155,14 @@ curl -L \
 
 ### Repos
 
-#### List Public Repositories [^4]
+#### List Public Repositories for a User [^4]
 
 ```
 curl -L \
   -H "Accept: application/vnd.github+json" \
   -H "Authorization: Bearer <YOUR-TOKEN>" \
   -H "X-GitHub-Api-Version: 2022-11-28" \
-  https://api.github.com/repositories
+  https://api.github.com/users/USERNAME/repos
 ```
 
 #### List Repositories for the Authenticated User [^5]
@@ -204,7 +204,7 @@ curl -L \
 [^1]: [GitHub API: Authenticated User](https://docs.github.com/en/rest/users/users?apiVersion=2022-11-28#get-the-authenticated-user)
 [^2]: [GitHub API: Get A User](https://docs.github.com/en/rest/users/users?apiVersion=2022-11-28#get-a-user)
 [^3]: [GitHub API: Get Contextual Information for a User](https://docs.github.com/en/rest/users/users?apiVersion=2022-11-28#get-contextual-information-for-a-user)
-[^4]: [GitHub API: List Public Repositories](https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#list-public-repositories)
+[^4]: [GitHub API: List Public Repositories for a User](https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#list-repositories-for-a-user)
 [^5]: [GitHub API: List Repositories for the Authenticated User](https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#list-repositories-for-the-authenticated-user)
 [^6]: [GitHub API: Search Repos](https://docs.github.com/en/rest/search/search?apiVersion=2022-11-28#search-repositories)
 [^7]: [GitHub API: Search User](https://docs.github.com/en/rest/search/search?apiVersion=2022-11-28#search-users)
