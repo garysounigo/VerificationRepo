@@ -1,5 +1,5 @@
 #!/bin/bash
 
-REPONAME=Ethikus;
-USERNAME=samirmimoun;
+REPONAME=******;
+USERNAME=**********;
 TOKEN=ghp_*********************;
