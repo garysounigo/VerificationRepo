@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. ./.config.sh
+. ./config.sh
 
 case $1 in 
 	search)
